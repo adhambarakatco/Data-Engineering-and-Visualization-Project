@@ -1,43 +1,44 @@
 # Data-Engineering-and-Visualization-Project
 
-This repository contains the implementation for **Milestone 1** of the "Data Engineering and Visualization" course for the Winter Semester 2024 at the German International University. The project aims to perform comprehensive data exploration, cleaning, and visualization to address research questions using a provided dataset.
+This repository contains the implementation for **Milestone 1** of the "Data Engineering and Visualization" course for the Winter Semester 2024 at the German International University. The project aims to perform comprehensive data exploration, data cleaning, and visualization to answer research questions using a provided dataset.
 
 ## Project Overview
 
-The goal of the project is to go through the complete data engineering process to answer questions derived from the dataset, which involves acquiring the data, designing visualizations, running exploratory and statistical analysis, preprocessing the data, and communicating the results. The dataset used in this project has been downloaded from the course's CMS and consists of transactional or observational data.
+The goal of the project is to go through the complete data engineering process to answer specific questions about the dataset. This involves acquiring the data, designing visualizations, performing exploratory and statistical analysis, preprocessing the data as needed, and communicating the results.
 
 ### Milestone 1: Data Cleaning and Visualization
-The focus of **Milestone 1** is on data exploration, data cleaning, and visualizing trends or patterns. The tasks for this milestone include:
+**Milestone 1** focuses on data exploration, data cleaning, and visualization. The specific tasks include:
 
-1. **Explore the Data**:
-   - Perform an initial examination to identify missing values and understand data types.
-   - Identify and document any patterns or anomalies in your dataset, including null values and inconsistent entries.
-   
-2. **Define Research Questions**:
-   - Formulate clear, specific research questions that will guide the analysis.
+1. **Exploring the Data**:
+   - Perform an initial examination to identify missing values and understand the data types.
+   - Identify and document any patterns or anomalies in the dataset, including null values and inconsistent entries.
 
-3. **Clean the Data**:
-   - Handle missing data using appropriate techniques (e.g., imputation, removal).
-   - Identify and manage outliers to ensure data quality.
+2. **Defining Research Questions**:
+   - Formulate clear and specific research questions that your analysis will address. These should be non-trivial and relevant to the dataset.
 
-4. **Visualize the Data**:
-   - Create relevant visualizations (e.g., histograms, box plots, scatter plots) to explore patterns or trends and address your research questions.
+3. **Cleaning the Data**:
+   - Handle missing data using appropriate techniques (e.g., imputation or removal).
+   - Identify and manage outliers to ensure data quality, justifying your chosen methods.
+
+4. **Visualizing the Data**:
+   - Create relevant plots (e.g., histograms, box plots, scatter plots) to explore patterns and trends.
+   - Select visualizations that help address the research questions and provide non-trivial insights.
 
 ### Deliverables:
-- **Jupyter/Colab Notebook**: The final notebook should document all steps, including data cleaning, analysis, and visualization.
-- **Code Quality**: Ensure the code is clean, well-commented, and well-structured.
+- **Jupyter/Colab Notebook** containing the analysis, data cleaning steps, and visualizations.
+- **Code Quality**: Clear, organized code with comments explaining complex logic.
 
 ### Research Questions:
-Each team member is required to come up with at least two research questions based on the dataset. These questions should be specific, non-trivial, and relevant to the data.
+Each team member must come up with at least two research questions based on the dataset. These should be specific and help guide the analysis.
 
 ### Grading Criteria:
-- **Implementation**: How thoroughly you perform exploratory data analysis (EDA), handle missing data, and choose appropriate plots.
-- **Descriptive Markdown Cells**: Clear documentation of your steps, analysis choices, and insights gained.
-- **Code Quality**: Use of descriptive variable names, clear code, and proper comments.
+- **Exploratory Data Analysis (EDA)**: Thoroughness in exploration, including handling missing values and identifying outliers.
+- **Relevance of Plots**: Use of appropriate and insightful visualizations to answer the research questions.
+- **Descriptive Markdown Cells**: Clear explanations of your analytical journey, choices, and methods.
+- **Code Quality**: Use of descriptive variable names, well-commented code, and clean structure.
 
-### Dataset Description
-The dataset used for this project contains transactional or observational data, including:
-- Variables like **product IDs**, **purchase quantities**, **prices**, **customer IDs**, etc.
+### Dataset Description:
+The dataset used for this project contains transactional or observational data, including features such as **Product ID**, **Quantity**, **Price**, **Customer ID**, etc.
 
 | Column Name   | Description                     |
 |---------------|---------------------------------|
@@ -48,10 +49,10 @@ The dataset used for this project contains transactional or observational data, 
 | PurchaseDate  | Date and time of the purchase   |
 
 ### Technologies Used:
-- **Python**: Programming language for data manipulation and analysis.
-- **Pandas & NumPy**: For data exploration and cleaning.
-- **Matplotlib & Seaborn**: For data visualization.
-- **Jupyter/Colab**: Interactive environment for conducting analysis.
+- **Python**: Programming language used for data manipulation, analysis, and visualization.
+- **Pandas & NumPy**: Libraries for data manipulation and cleaning.
+- **Matplotlib & Seaborn**: Libraries for data visualization.
+- **Jupyter/Colab**: Interactive environment for data analysis.
 
 ## Setup Instructions
 
