@@ -58,7 +58,7 @@ The dataset used for this project contains transactional or observational data, 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/data-engineering-visualization-milestone1.git
+   https://github.com/adhambarakatco/Data-Engineering-and-Visualization-Project.git
 
 2. Install the required Python dependencies:
    ```bash
